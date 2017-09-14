@@ -7,6 +7,6 @@ echo "Type the path of the micro sd card you want to install the OS to (run lsbl
 
 read -r card
 
-unzip -f dragonboard410c_sdcard_developer_debian-260.zip
+unzip -n dragonboard410c_sdcard_developer_debian-260.zip
 sudo dd if= db410c_sd_install_*.img of=$card bs=4M oflag=sync status=noxfer
 echo "Set S6 switch on DragonBoard 410c to 0-1-0-0. SD Boot Switch should be set to ON. See 1.1 Board Overview page 7 for more assistance with S6 http://linaro.co/96b-hwm-db"
