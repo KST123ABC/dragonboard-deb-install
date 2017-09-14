@@ -2,7 +2,7 @@
 # Download dragonboard 410c debian image, wipe given sd card, install image
 # AUTHOR: Kyle Suero (KST123ABC)
 
-curl -LOk 512M http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-260.zip
+curl -LOk http://builds.96boards.org/releases/dragonboard410c/linaro/debian/latest/dragonboard410c_sdcard_developer_debian-260.zip
 echo "Type the path of the micro sd card you want to install the OS to (run lsblk to find sd card. ex: /dev/sdb), followed by [ENTER]: "
 
 unzip dragonboard410c_sdcard_developer_debian-260.zip
