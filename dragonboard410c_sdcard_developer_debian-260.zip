@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find 96Boards builds and other source files here. ">
+    <meta name="author" content="Shovan Sargunam">
+
+    
+
+    <script src="//www.96boards.org/app/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
+
+    <link rel="shortcut icon" href="https://www.96boards.org/assets/favicon.png"  />
+    <link rel="apple-touch-icon-precomposed" href="https://www.96boards.org/assets/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.96boards.org/assets/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.96boards.org/assets/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.96boards.org/assets/favicon.png">
+
+
+    <title>96Boards Builds</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//www.96boards.org/app/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="//www.96boards.org/app/css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="//www.96boards.org/app/builds.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P53JPC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P53JPC');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                	<img src="https://www.96boards.org/assets/images/96Boards-Logo_white-standard-96Boards.png" class="mk-sticky-logo" />
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.96boards.org/" target="_blank">Home</a></li>
+                    <li><a href="https://www.96boards.org/about/" target="_blank">About</a></li>
+                    <li><a href="https://www.96boards.org/products/" target="_blank">Products</a></li>
+                    <li><a href="https://www.96boards.org/projects/" target="_blank">Projects</a></li>
+                    <li><a href="https://www.96boards.org/documentation/" target="_blank">Documentation</a></li>
+                    <li><a href="https://www.96boards.org/blog/" target="_blank">Blog</a></li>
+                    <li><a href="https://discuss.96boards.org/" target="_blank">Forums</a></li>
+                    <li><a href="https://www.96boards.org/search/?q=&fields.label=96Boards" target="_blank"><i class="fa fa-search"></i></a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Content -->
+    <div class="row" id="mk-page-introduce">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="container">
+            <div class="col-lg-12">
+                <h1 class="page-header">96Boards Builds</h1>
+                <ol id="breadcrumbs" class="breadcrumb">
+                    <li><a href="//96boards.org" target="_blank">96Boards</a></li>
+                    <li class="active"><a href="https://builds.96boards.org/">Builds</a></li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+
+     <!-- Page Content -->
+    <div class="container">
+        <!-- Image Header -->
+        <div class="row" id="content">
+            <div class="col-lg-12">
+            
+Server error.
+
+<pre>
+BotoServerError at /usr/lib/python2.7/dist-packages/boto/connection.py:973
+</pre>
+
+
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="row">
+        <div class="container">
+            <div class="col-md-6">
+              <img src="https://www.linaro.org/app/images/linaro-logo-web-white.png" width="90" height="auto" style=" margin-top: -1px; margin-bottom: -15px; "><br />
+              <span>Portions of this content © 2017 Linaro</span>
+            </div>
+            <div class="col-md-6 text-right">
+            <br />
+            	<ul class="list-inline">
+                	<li><a href="https://www.facebook.com/96Boards" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.96boards.org/feed/" target="_blank"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="https://twitter.com/96Boards" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCjawhk_W1QnJs3pKIsKLJNg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+           		<ul id="menu-footermenu" class="list-inline">
+            		<li><a href="https://www.96boards.org/" target="_blank">Home</a></li>
+                	<li><a href="https://www.96boards.org/legal/" target="_blank">Legal</a></li>
+                	<li><a href="https://www.96boards.org/contact/" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="//www.96boards.org/app/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+  var parts = location.pathname.split('/');
+  var href = location.href.split('/')
+  // the href will either be a normal page with a trailing "/" we need to remove
+  // or a license-accepted type click that has a query string ?foo=bar we need to remove
+  href.pop();
+  href = href.join('/') + '/';
+  for (var i=0; i<parts.length; i++) {
+    if (parts[i]) {
+      var ol = $('#breadcrumbs');
+      var parent = href + Array(parts.length - i).join('/..');
+      ol.append('<li><a href="' + parent + '">' + parts[i] + '</a></li>');
+
+      if (i == parts.length - 2) {
+        document.title += ' for: ' + parts[i];
+      }
+    }
+  }
+});
+    </script>
+</body>
+
+</html>
